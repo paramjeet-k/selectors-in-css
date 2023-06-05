@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selector</title>
+ <style>
+    *{
+      margin: 0;
+      padding: 0;
+      color: crimson;
+    }
+      /* h1{
+        background-color: #787878;
+      } */
+
+      .bg-orange{
+        background-color: rgb(215, 206, 31);
+      }
+      
+      #bg-green {
+        background-color: rgb(36, 114, 24);
+
+      }
+      a[target="_blank"]{
+        background-color: rgb(33, 48, 212);
+        color: rgb(17, 118, 138);
+      }
+      
+   h1,h2,h3{
+     background-color: rgb(167, 41, 41);
+   }
+
+   ul li{
+    background-color: rgb(17, 104, 130);
+   }
+
+   header>a{
+    background-color: rgb(30, 95, 8);
+   }
+
+
+   /* img~p{background-color: rgb(165, 25, 25);} */
+   img+p{background-color: rgb(165, 25, 25);}
+ 
+ </style>
+</head>
+<body>
+
+  <!-- <h1>Lorem ipsum dolor sit amet.</h1>
+  <h2 class="bg-orange">Lorem ipsum dolor sit amet consectetur.</h2>
+  <h3 class="bg-orange" id="bg-green">Lorem ipsum dolor sit amet.</h3>
+  <a target="_parent" href="google.com">Google</a>
+  <a target="_blank" href="safari.com">Safari</a> --> 
+
+  <h1>Lorem ipsum dolor sit amet.</h1>
+  <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+  <h3>Lorem ipsum dolor sit amet.</h3>
+  <ul>
+    <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+  </ul>
+
+  <header>
+    <a href="#">Google</a>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <a href="#">Logo</a>
+      </ul>
+    </nav>
+  </header>
+  <div>
+    <img src="#" alt="">
+    <p>change me</p>
+    <div>
+      <p>change me 2</p>
+    </div>
+
+    </div>
+
+  <a target="_parent" href="google.com">Google</a>
+  <a target="_blank" href="safari.com">Safari</a>
+
+</body>
+</html>
